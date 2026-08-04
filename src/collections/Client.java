@@ -69,6 +69,19 @@ public class Client {
 
 
         Collections.sort(students);
+        
+        //        HashMap<String,Integer>mp = new HashMap<>();
+//        mp.put("Ram",1);
+//        mp.put("Sham",2);
+//        mp.put("Ram",3);
+
+//        HashMap<Student,String>mp2 = new HashMap<>();
+////        Student s1 = new Student(1,"RAM");
+////        Student s2 = new Student(2,"Sham");
+////        Student s3 = new Student(1,"RAM");
+//        mp2.put(new Student(1,"RAM"),"SDE");
+//        mp2.put(new Student(2,"Sham"),"HR");
+//        mp2.put(new Student(1,"RAM"),"Manager");
 
 
            Collections.sort(students,new StudentScoreComparator());    // user defined
